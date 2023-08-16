@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;    
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    width: 100%;
+}
+
+.content-header {    
+    padding: 30px;   
+    display: flex;
+    align-items: center;    
+}
+
+.logo-header {
+    font-size: 24px;    
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.menu-nav {
+    margin-left: 100px;
+}
+
+.list-links {
+    display: flex;
+    align-items: center;
+    list-style: none;    
+}
+
+.link { 
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    margin-right: 40px;
+    color: #FFFFFF
+}
+
+.container-background {
+    width: 100%;
+    height: 100vh;
+    background-image: url('./assets/background-dev.png');
+    background-size: cover;    
+    background-repeat: no-repeat;    
+}
+
+.section-contact {    
+    padding: 60px 80px 0 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+h1 {
+    font-size: 58px;    
+    font-weight: 800;
+    line-height: 80px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    margin-top: 200px;
+}
+
+.container-form {      
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+form {
+    display: flex;
+    flex-direction: column;    
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.title-form {
+    color: #252B42;
+    text-align: center;   
+    font-size: 24px;    
+    font-weight: 700;
+    line-height: 32px; 
+    letter-spacing: 0.1px;
+}
+
+.content-input {
+    display: flex;
+    flex-direction: column;
+}
+
+label {    
+    font-size: 14px;    
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+}
+
+input {
+    display: flex;
+    align-items: center;
+    width: 352px;
+    height: 50px;
+    padding: 11px;
+    border-radius: 5px;
+    border: 1px solid #E6E6E6;
+    background: #F9F9F9;    
+}
+
+#contact-us {
+    display: flex;
+    align-items: center;
+    width: 354px;
+    height: 120px;
+    padding: 11px;
+    border-radius: 5px;
+    border: 1px solid #DDD;
+    background: #F9F9F9;
+}
+
+button {
+    padding: 15px 40px;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;    
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    border-radius: 5px;
+    border: none;
+    background: #40BB15;
+    cursor: pointer;
+}
+
+.container-services {
+    margin: 0 auto;    
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-services {
+    color: #252B42;
+    font-size: 40px;    
+    font-weight: 700;
+    text-align: center;
+    line-height: 57px; 
+    letter-spacing: 0.2px;
+}
+
+.container-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 100px 0;
+    gap: 40px;
+}
+
+.container-card-box {
+    width: 328px;
+    display: flex;    
+    flex-direction: column;
+    align-items: center;       
+    border-radius: 10px;
+    background: #D9EDFF;
+}
+
+.container-title-card-box {
+    width: 100%;        
+    padding: 30px 50px;
+    border-radius: 10px 10px 0 0;
+    border: 1px solid #A9D6FF;
+    background: #219653;
+}
+
+h4 {    
+    font-size: 16px;    
+    font-weight: 700;
+    text-align: center;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
+}
+
+.container-list-card-box {
+    width: 100%;
+    padding: 30px 50px;
+    border-radius: 0px 0px 11px 11px;
+    border: 1px solid #A9D6FF;
+    background: #EEF6FF;
+}
+
+.container-list-card-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list-card-box {    
+    font-size: 14px;    
+    font-weight: 600;    
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+
+.container-about {
+    width: 100%;
+    width: 100%;
+    padding: 50px 0;
+    background: #1E2844;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-about {
+    font-size: 40px;    
+    font-weight: 700;
+    text-align: center;
+    line-height: 57px; 
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+
+p {
+    width: 1167px;
+    text-align: justify;    
+    font-size: 28px;    
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 1px;
+    margin: 30px 0;
+    color: #FFFFFF;
+}
+
+@media screen and (min-width: 1061) and (max-width: 1280px) {
+    p {
+        width: 96%;
+    }   
+    
+}
+
+@media screen and (min-width: 531px) and (max-width: 1060px) {
+    .content-header {
+        display: flex;
+        flex-direction: column;            
+        align-items: center;
+    }
+    
+    .menu-nav {
+        margin: 0;
+    }
+
+    .list-links {
+        gap: 30px;
+    }
+
+    .link {
+        margin: 20px 0 0 0; 
+    }
+
+    .link li {
+        font-size: 18px;
+    }
+
+    .section-contact {
+        padding: 0;       
+    }
+
+    h1 {
+        margin-top: 0;
+        display: none;        
+    }
+    
+    .container-form {
+        margin: 100px auto 0 auto;
+    }
+
+    p {
+        width: 96%;
+    }
+}
+
+
+@media screen and (max-width: 530px) {
+        .content-header {
+            display: flex;
+            flex-direction: column;            
+            align-items: center;
+        }
+        
+        .menu-nav {
+            margin: 0;
+        }
+
+        .list-links {
+            gap: 30px;
+        }
+
+        .link {
+            margin: 20px 0 0 0; 
+        }
+
+        .section-contact {
+            padding: 0;
+        }
+
+        h1 {
+            margin-top: 0;
+            display: none;
+        }
+
+        .container-form {
+            width: 96%;
+            margin: 50px auto 0 auto;
+        }
+        
+        input {
+            width: 100%;
+        }
+
+        #contact-us {
+            width: 100%;
+        }
+
+        p {
+            width: 96%;
+            font-size: 20px;
+        }
+}
